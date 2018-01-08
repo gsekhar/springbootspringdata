@@ -1,0 +1,21 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Header>
+<CallbackHeader xmlns="http://www.openuri.org/2002/04/soap/conversation/">
+<conversationID>PortOut-QALiteM-DSETSOA--2017-11-12-16:16:01.436</conversationID>
+</CallbackHeader>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+<ns:onNotifications xmlns:ns="http://dset.com/lnp/ws/WebServices">
+<Response xmlns="http://dset.com/lnp/ws/schema"> 
+<ReagionID>MW7661</ReagionID>
+ <NotifyOrderAckXML>
+<![CDATA[<NotifyOrderAck xmlns="http://www.dset.com/lsoa/xmlschema">
+ <OrderNumber>2279857</OrderNumber>
+ <OrderStatusCode>0</OrderStatusCode>
+ OrderStartTN>4787860571</OrderStartTN>
+ <OrderType>10</OrderType>
+ </NotifyOrderAck>]]></NotifyOrderAckXML>
+</Response>
+</ns:onNotifications>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope> 

@@ -1,0 +1,133 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.cox.pwdutility</groupId>
+  <artifactId>pwdutility</artifactId>
+  <packaging>war</packaging>
+	<version>1.0</version>
+  <name>pwdutility</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <java.version>1.8</java.version>
+  </properties>
+<parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.2.RELEASE</version>
+    </parent>
+
+<distributionManagement>
+		<repository>
+			<id>artifactory</id>
+			<name>repo.corp.cox.com-releases</name>
+			<url>https://repo.corp.cox.com/artifactory/cox-cbt</url>
+		</repository>
+		<snapshotRepository>
+			<id>artifactory</id>
+			<name>repo.corp.cox.com-snapshots</name>
+			<url>https://repo.corp.cox.com/artifactory/cox-cbt</url> 
+		</snapshotRepository>
+	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>repo.corp.cox.com-cox-idm</id>
+			<name>repo.corp.cox.com-releases</name>
+			<url>https://repo.corp.cox.com/artifactory/cox-cbt</url>
+		</repository>
+		<repository>
+			<id>repo.corp.cox.com-jcenter</id>
+			<name>repo.corp.cox.com-releases</name>
+			<url>https://repo.corp.cox.com/artifactory/jcenter</url>
+		</repository>
+
+		<!-- added for disabling access to maven central -->
+		<repository>
+			<id>central</id>
+			<url>http://repo1.maven.org/maven2</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+           <exclusions>
+				 <exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions> 
+        </dependency>
+        
+        <dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3</version>
+		</dependency>
+		
+		<dependency>
+    	<groupId>com.googlecode.json-simple</groupId>
+    		<artifactId>json-simple</artifactId>
+    		<version>1.1.1</version>
+		</dependency>
+		
+		 <!-- JPA Data (We are going to use Repositories, Entities, Hibernate, etc...) -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency> 
+        
+        <!-- Swagger Dependencies -->
+       <!--  <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>4.0.0</version>
+        </dependency> -->
+        
+        <dependency>
+			<groupId>com.cox.cbt</groupId>
+			<artifactId>telephony-commons</artifactId>
+			<version>1.0.64</version>
+		</dependency>
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <outputDirectory>target</outputDirectory>
+              		  <warName>ROOT</warName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,542 @@
+{
+"request1": {
+	"siteid": "333",
+	"housenumber": "278566",
+	"firstname": "Captain",
+	"lastname": "America",
+	"socialsecuritynumber": "222348677"
+},
+
+
+"response1": {
+  "creditanddepositinfo": {
+    "siteid": "333",
+    "servicedeposits": [
+      {
+        "servicecategory": "C",
+        "depositamount": 50,
+        "numberofspreadinstallments": 0,
+        "servicedepositmaxamount": 0
+      },
+      {
+        "servicecategory": "T",
+        "depositamount": 50,
+        "numberofspreadinstallments": 1,
+        "servicedepositmaxamount": 0
+      }
+    ],
+    "servicedepositmaxamount": 25,
+    "equimentdeposit": [
+      {
+        "equipmentSPK": "TELEPHONE_EQUIPMENT_LEASE",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 24
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CABLE_DIGITAL_HD_CONVERTER",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CHSI_EQUIPMENT_LEASE",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CABLE_DIGITAL_CONVERTER",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 1
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 2
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 3
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 4
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 5
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 6
+          }
+        ]
+      }
+    ],
+    "creditchecktype": "EXTERNAL",
+    "creditclass": "NOHIT",
+    "customerstatus": "N",
+    "sitecode": "ORG",
+    "accountnumber9": "27856617",
+    "servicedepositspreadrequired": true,
+    "duenow": true,
+    "externalcreditcheckinfo": [
+      {
+        "creditinquirydatetime": "20170622 223901 ",
+        "creditinquirystatus": "C",
+        "matchindicator": null,
+        "matchindicatorDesc": null,
+        "hitflag": 2,
+        "hitflagdesc": "NO Hit",
+        "safescancode": "S",
+        "safescandesc": "SAFESCANNED.",
+        "addressdiscrepancyindicator": null,
+        "fraudvictimactivedutyindicator": null,
+        "fraudvictimactivedutydesc": null,
+        "rejectedmessagecode": null,
+        "reasoncodes": [
+          {
+            "code": null,
+            "message": null
+          }
+        ]
+      }
+    ]
+  }
+},
+"request2": {
+	"siteid": "444",
+	"housenumber": "279077",
+	"firstname": "Spider",
+	"lastname": "Man",
+	"socialsecuritynumber": "444348600"
+},
+
+
+"response2": {
+  "creditanddepositinfo": {
+    "siteid": "444",
+    "servicedeposits": [
+      {
+        "servicecategory": "C",
+        "depositamount": 50,
+        "numberofspreadinstallments": 0,
+        "servicedepositmaxamount": 0
+      },
+      {
+        "servicecategory": "T",
+        "depositamount": 50,
+        "numberofspreadinstallments": 1,
+        "servicedepositmaxamount": 0
+      }
+    ],
+    "servicedepositmaxamount": 25,
+    "equimentdeposit": [
+      {
+        "equipmentSPK": "TELEPHONE_EQUIPMENT_LEASE",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 24
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CABLE_DIGITAL_HD_CONVERTER",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CHSI_EQUIPMENT_LEASE",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CABLE_DIGITAL_CONVERTER",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 1
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 2
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 3
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 4
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 5
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 6
+          }
+        ]
+      }
+    ],
+    "creditchecktype": "EXTERNAL",
+    "creditclass": "NOHIT",
+    "customerstatus": "N",
+    "sitecode": "ORG",
+    "accountnumber9": "27856617",
+    "servicedepositspreadrequired": true,
+    "duenow": true,
+    "externalcreditcheckinfo": [
+      {
+        "creditinquirydatetime": "20170622 223901 ",
+        "creditinquirystatus": "C",
+        "matchindicator": null,
+        "matchindicatorDesc": null,
+        "hitflag": 2,
+        "hitflagdesc": "NO Hit",
+        "safescancode": "S",
+        "safescandesc": "SAFESCANNED.",
+        "addressdiscrepancyindicator": null,
+        "fraudvictimactivedutyindicator": null,
+        "fraudvictimactivedutydesc": null,
+        "rejectedmessagecode": null,
+        "reasoncodes": [
+          {
+            "code": null,
+            "message": null
+          }
+        ]
+      }
+    ]
+  }
+},
+"request3": {
+	"siteid": "555",
+	"housenumber": "276555",
+	"firstname": "Bat",
+	"lastname": "Man",
+	"socialsecuritynumber": "222348100"
+},
+
+
+"response3": {
+  "creditanddepositinfo": {
+    "siteid": "555",
+    "servicedeposits": [
+      {
+        "servicecategory": "C",
+        "depositamount": 50,
+        "numberofspreadinstallments": 0,
+        "servicedepositmaxamount": 0
+      },
+      {
+        "servicecategory": "T",
+        "depositamount": 50,
+        "numberofspreadinstallments": 1,
+        "servicedepositmaxamount": 0
+      }
+    ],
+    "servicedepositmaxamount": 25,
+    "equimentdeposit": [
+      {
+        "equipmentSPK": "TELEPHONE_EQUIPMENT_LEASE",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 24
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CABLE_DIGITAL_HD_CONVERTER",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CHSI_EQUIPMENT_LEASE",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 25
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 25
+          }
+        ]
+      },
+      {
+        "equipmentSPK": "CABLE_DIGITAL_CONVERTER",
+        "existingquantity": 0,
+        "depositinfo": [
+          {
+            "equipmentnumber": 1,
+            "depositamount": 1
+          },
+          {
+            "equipmentnumber": 2,
+            "depositamount": 2
+          },
+          {
+            "equipmentnumber": 3,
+            "depositamount": 3
+          },
+          {
+            "equipmentnumber": 4,
+            "depositamount": 4
+          },
+          {
+            "equipmentnumber": 5,
+            "depositamount": 5
+          },
+          {
+            "equipmentnumber": 6,
+            "depositamount": 6
+          }
+        ]
+      }
+    ],
+    "creditchecktype": "EXTERNAL",
+    "creditclass": "NOHIT",
+    "customerstatus": "N",
+    "sitecode": "ORG",
+    "accountnumber9": "27856617",
+    "servicedepositspreadrequired": true,
+    "duenow": true,
+    "externalcreditcheckinfo": [
+      {
+        "creditinquirydatetime": "20170622 223901 ",
+        "creditinquirystatus": "C",
+        "matchindicator": null,
+        "matchindicatorDesc": null,
+        "hitflag": 2,
+        "hitflagdesc": "NO Hit",
+        "safescancode": "S",
+        "safescandesc": "SAFESCANNED.",
+        "addressdiscrepancyindicator": null,
+        "fraudvictimactivedutyindicator": null,
+        "fraudvictimactivedutydesc": null,
+        "rejectedmessagecode": null,
+        "reasoncodes": [
+          {
+            "code": null,
+            "message": null
+          }
+        ]
+      }
+    ]
+  }
+}
+}
